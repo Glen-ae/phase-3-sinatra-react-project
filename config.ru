@@ -12,4 +12,7 @@ end
 use Rack::JSONBodyParser
 
 # Our application
+use MiniatureSetsController
+use MiniaturesController
 run ApplicationController
+
