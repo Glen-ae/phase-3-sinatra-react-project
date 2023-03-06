@@ -1,47 +1,34 @@
-# MINIATURE SINATRA APP
+# MINIATURE SINATRA APP...
+Miniature Tracker is an application used to catalog D&D and Tabletop RPG miniatures.It helps you sort out
+most all your desired miniatures and keep them so that you cannot loose them in the future.
 
-## Learning Goals
+## PROJECT OBJECTIVES...
+The objective of this project is to...
+1.Add a new miniature into your collection.
+2.Add a new set of miniatures into the collection.
+3.Delete miniatures into your collection.
+4.Delete sets of miniatures in your collection.
 
-- Build a web basic API with Sinatra and Active Record to support a React
-  frontend
+## How to Run it...
+Fork and clone this repository into your computer
+Go to the directory where the file is located
+Run bundle install to install all the necessary gems
+Run bundle exec server to run the backend at localhost/9292...
 
-## Introduction
+## How to use it...
+This app is mainly for miniature enthusiats who like collecting different miniatures and don't have track of them.
+Miniatures refer to small-scale representations of objects, scenes or figures, often used for display or gaming purposes. Miniatures can come in various forms and materials, such as plastic, metal, wood, paper or clay. They are often intricately detailed, and can be used for a range of purposes, from recreating historical battles to creating dioramas of everyday scenes.
 
-This is the backend part of the MINIATURE TRACKER project.It carries all the data
-needed for the project to work effectively and achieve it's functionality and goal
+You'll be able to create sets and in those sets you'll be to categorize your various miniatures in your prefered way.You'll also be able to create miniatures,
+assign them names, their rarerity, the number of units produced and the year.You'll also be able to delete the miniature that you don't like and the ones that
+you don't prefer from your collection or the one that you dislike.You'll be able to edit sets and miniatures in case you made a mistake or get an error when uploading your image.
 
-The focus of this project is **building a Sinatra API backend** that uses
-**Active Record** to access and persist data in a database, which will be used
-by a separate **React frontend** that interacts with the database via the API.
+## FRONTEND LINK..
+ Github link...https://github.com/Glen-ae/phase-3-sinatra-project-frontend/tree/main/my-miniature
+ 1.Fork and clone this repository into your computer
+ 2.Go to the directory where thr file is located
+ 3.Run npm install to install the dependecies
+ 4.Run npm start to start your app at localhost/3000...
 
-## Requirements
-
-For this project, you must:
-
-
-- **Create** a new todo
-- **Read** a list of all todos
-- **Update** an individual todo
-- **Delete** a todo
-
-A `Todo` can be tagged with a `Category`, so that each todo _belongs to_ a
-category and each category _has many_ todos.
-
-## Getting Started
-
-### Backend Setup
-
-This repository has all the starter code needed to get a Sinatra backend up and
-running. [**Fork and clone**][fork link] this repository to get started. Then, run
-`bundle install` to install the gems.
-
-After running bundle install in your terminal run `bundle exec rake server` to start
-the backend data which will run in localhost
-
-### Project objective 
-The main objective of this project is to help people sample
-their miniatures and also arranga e them accrodingly and as desired
-
-All these data will be stored in the backend part of it
-
-
+ ## END
+ Thank you
